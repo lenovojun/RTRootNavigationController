@@ -10,7 +10,7 @@ Apple has changed some behavior of **UINavigationBar**([see](https://developer.a
 
 iOS 15 上苹果改变了导航条的部分默认行为，开发者可以自己重写：
 
-```objective-c
+```objective-c 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // setup appearance
